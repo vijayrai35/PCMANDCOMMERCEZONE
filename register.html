@@ -1,0 +1,563 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0031)http://tpo.jec-jabalpur.org/v3/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>PCM ZONE AND COMMERECE ZONE</title>
+
+  <link href="./css_pages/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="./css_pages/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="./css_pages/main.css" rel="stylesheet" type="text/css">
+  <style>
+  @media print {
+    .noPrint {
+      display: none;
+    }
+  }
+</style></head>
+
+<body>
+    <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt noPrint" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://pcmandcommercezone.com/v1/">PCM ZONE AND COMMERCE ZONE</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="http://pcmandcommercezone.com/v1/?page=home">Home</a>
+                    </li>
+                    <li class=""><a href="http://pcmandcommercezone.com/v1/?page=aboutus">About US</a>
+                            </li>
+                    <li class=""><a href="http://pcmandcommercezone.com/v1/?page=contactus">Contact</a>
+                    </li>
+
+                    <li class=""><a href="http://pcmandcommercezone.com/v1/?page=galery">Galery</a>
+                    </li>
+                   
+                    <li class=""><a href="http://pcmandcommercezone.com/v1/?page=help">Help</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--/header-->
+
+
+
+
+
+<div class="container-fluid" style="background: rgb(23, 0, 32); color: rgb(255, 255, 255);">
+<section id="homePage" class="container" style="color: #fff background: none repeat scroll 0% 0% #1C0132">
+    <div class="row">
+        <div class="col-sm-25">
+             
+ <!-- Container -->  
+ <div id="container" > 
+<div class="smallNav" id="smallNav">
+<h3 class="formtitle "> Online Registration Form</h3> 
+</div> 
+
+
+<form method="post" action="/action_register.php" name="test" id="registrationform" autocomplete="off" > 
+
+ <!-- Name --> 
+<div class="mainDiv">
+
+<div class="leftSide" >
+<b>Name</b> 
+</div>
+<div class="rightSide1" >
+<input class="inputBox" maxlength="25" type="text" placeholder="First Name" name="fstname" id="fstname" value="" size="40" onBlur="capitaliseFirstLetter(this)" onChange="return chkname(this);"/> 
+ <input class="inputBox" maxlength="25" type="text" placeholder="Middle Name" name="middlename" id="middlename" size="40" value="" onBlur="capitaliseFirstLetter(this)" onChange="return chkname(this);"/>
+ <input class="inputBox" maxlength="25" type="text" placeholder="Last Name" name="lastname" id="lastname" size="40" value="" onBlur="capitaliseFirstLetter(this)" onChange="return chkname(this);"/>  
+<br><span class="note">[Note 1: Name as recorded in the Matriculation/Secondary Examination Certificate]</span>  
+ 
+</div>
+</div>
+
+<!-- Father Name --> 
+<div class="mainDiv">
+
+<div class="leftSide" >
+<b>Father Name</b> 
+</div>
+<div class="rightSide1" >
+ <input class="inputBox" maxlength="25" type="text" placeholder="First Name" name="fatherfstname" value="" id="fatherfstname" size="40" onKeyDown="valid()" onBlur="capitaliseFirstLetter(this)" onChange="return chkname(this);" />  
+ <input class="inputBox"  maxlength="25" type="text" placeholder="Middle Name" name="fathermiddlename" id="fathermiddlename" value="" size="40" onBlur="capitaliseFirstLetter(this)" onChange="return chkname(this);"/>  
+ <input class="inputBox"  maxlength="25" type="text"  placeholder="Last Name" name="fatherlastname" id="fatherlastname" value="" size="40" onBlur="capitaliseFirstLetter(this)" onChange="return chkname(this);"/>  
+ 
+</div>
+</div>
+
+<!-- Mother Name --> 
+<div class="mainDiv">
+
+<div class="leftSide" >
+<b>Mother Name</b> 
+</div>
+<div class="rightSide1" >
+<input maxlength="25" class="inputBox"  type="text" placeholder="First Name" name="motherfstname" id="motherfstname" size="40" value='' onBlur="capitaliseFirstLetter(this)" onChange="return chkname(this);" />  
+ <input maxlength="25" class="inputBox"   type="text" placeholder="Middle Name" name="mothermiddlename" id="mothermiddlename" size="40" value='' $readonly_mothermiddlename onBlur="capitaliseFirstLetter(this)" onChange="return chkname(this);" />  
+ <input maxlength="25" class="inputBox" type="text" placeholder="Last Name" name="motherlastname" id="motherlastname" size="40" value='' $readonly_motherlastname onBlur="capitaliseFirstLetter(this)" onChange="return chkname(this);" />  
+ 
+</div>
+</div>
+
+
+<!-- Gender --> 
+<div class="mainDiv">
+
+<div class="leftSide" >
+<b>Gender</b> 
+</div>
+<div class="rightSide1" >
+<select name='sex' id='sex' onChange='changefees(this.value)'><option value='s'>--Gender--</option><option value='Male' >Male</option><option value='Female' >Female</option></select>  
+</div>
+</div>
+
+<!-- Community --> 
+<div class="mainDiv">
+
+<div class="leftSide" >
+<b>Community</b> 
+</div>
+<div class="rightSide" >
+  <select name=community id=community onChange="ajaxcom();message_comm()" ><option value=0 >--Select--</option></select><div name="mess" id="mess"></div>	<div id="ager" style="display:none;" ><br/><span class=note>[<b>Note:</b> <strong>SC/ST/OBC Candidates are automatically provided age relaxation for the post reserved for them.]</strong></span></div>  
+ <div name="Creamydev" id="Creamydev">  
+ </div>  
+<div align="left" id="casteother1" style="display:none;">Other Caste&nbsp;&nbsp;<input maxlength="30" onChange="return chkname1(this);" value="" id="casteother2" type="text" name="casteother1"/></div>  
+ <div id="caste_other"></div>  
+</div>
+</div>
+
+<!-- DOB --> 
+<div class="mainDiv">
+
+<div class="leftSide" >
+<b>Date Of Birth</b> 
+</div>
+<div class="rightSide" >
+ <!--<input type="date" name="bday" min="1947-12-31" max="2014-12-31">-->
+   <input type="text" name="dob" id="dob"  readonly="readonly" value="" onblur="return chkage();" />  
+ <!--<img src="css/images/calender.gif" style="cursor:hand" title="Calendar" onclick="displayCalendar(document.getElementById('dob'),'dd/mm/yyyy',this)">-->  
+ <img id="dobim" src="oraauth/candidate/css/images/calender.gif" onClick="javascript:NewCssCal('dob','ddMMyyyy')"> 
+
+</div>
+</div>
+
+<!-- Birth Place --> 
+<div class="mainDiv">
+
+<div class="leftSide" >
+<b>Birth of place</b> 
+</div>
+<div class="rightSide" >
+ <select name="sob" id="sob" onChange="chkstst();">  
+ <option value="0" >--Select State--</option>  
+ <option value="fc">Foreign Country</option> 
+  <br><span class=note>[Note: Please select foreign country if born outside india]</span> 
+ </select>  
+</div>
+</div>
+
+<!-- Nationality --> 
+<div class="mainDiv">
+
+<div class="leftSide" >
+<b>Nationality</b> 
+</div>
+<div class="rightSide" >
+ <select name="nationality" id="nationality" style="width:550px;" >  
+ <option value='s'>--Select Nationality--</option>  
+ </select>
+ <br>
+ <span class=note>[Note: All candidates, except Citizen of India, will be required to produce certificate of eligibility issued by the Government of India]</span>  
+ 
+</div>
+</div>
+
+
+<!-- Email Address --> 
+<div class="mainDiv">
+
+<div class="leftSide" >
+<b>Email Address</b> 
+</div>
+<div class="rightSide" >
+<input name="Email" value="" onblur="showHint(this.value);ch_mail();" id="Email" type=text maxlength=45 size=45 onCopy="return false" onDrag="return false" onDrop="return false" onPaste="return false" autocomplete="off" /><br>  
+ <span class="note">[Enter Your E-mail Address which is current and active]</span>  
+ 
+ 
+</div>
+</div>
+
+<!-- Confirm Email Address --> 
+<div class="mainDiv">
+
+<div class="leftSide" >
+<b>Confirm Email Address</b> 
+</div>
+<div class="rightSide" >
+  <input name="confirmEmail" id="confirmEmail" value="" type=text maxlength=45 size=45 onblur="ch_mailconfirm();" onCopy="return false" onDrag="return false" onDrop="return false" onPaste="return false" autocomplete="off" >  
+
+</div>
+</div>
+
+
+
+<!-- Desired password --> 
+<div class="mainDiv">
+
+<div class="leftSide" >
+<b>Desired Password</b> 
+</div>
+<div class="rightSide" >
+<input name="DesiredPassword" type=password maxlength=34 size=15 id="DesiredPassword" value='' onblur="return minlen(this);" onKeyUp="passwordStrength(this.value)" onCopy="return false" onDrag="return false" onDrop="return false" onPaste="return false" autocomplete="off" ><br/><p><br />  
+ <label float="right" for="passwordStrength" id='strength'></label>  
+ <!--<div id="passwordDescription">Password not entered</div>-->  
+ <div id="passwordStrength" class="strength0"></div>  
+ </p><br />  
+  
+ <span class="note">[Please choose maximum 10 Digit and minimum 8 digit <br>  
+ password which will be required each time you login.Password must contain atleast one character one number]</span>  
+</div>
+</div>
+<!-- Desired password --> 
+<div class="mainDiv">
+
+<div class="leftSide" >
+<b>Confirm Password</b> 
+</div>
+<div class="rightSide" >
+ <input name="ConfirmPassword" type=password maxlength=34 size=15 id='ConfirmPassword' value='' onblur="checkmatchpassword(this.value)" onCopy="return false" onDrag="return false" onDrop="return false" onPaste="return false" autocomplete="off" > &nbsp;<span id="showmatchpassword"></span>  
+
+</div>
+</div>
+
+
+<!-- Mobile Number --> 
+<div class="mainDiv">
+
+<div class="leftSide" >
+<b>Mobile Number</b> 
+</div>
+<div class="rightSide" >
+<input onKeyUp="return checkmobile(this.value)" name="mobileno" id="mobileno" value="" type=text maxlength=10 size=10 onCopy="return false" onDrag="return false" onDrop="return false" onPaste="return false" autocomplete="off" >  
+ <br>  
+ <span class="note">[Enter Your Mobile Number without 91 or +91 As. 9999988888]</span>  
+ <br/>  
+</div>
+
+  
+
+</div>
+
+
+
+
+</form>
+			
+<button type="submit" form="registrationform" value="Submit">Submit</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              			
+          	
+
+</body></html>
+
+
+
+
+
+
+
+
+
+
+
+<script>  
+ function passwordStrength(password)  
+ {  
+ var desc = new Array();  
+ desc[0] = "Very Weak";  
+ desc[1] = "Weak";  
+ //desc[2] = "Not good";  
+ desc[2] = "Medium";  
+ desc[3] = "Strong";  
+ desc[4] = "Strongest";  
+  
+ var score = 0;  
+ if(password.length > 3)  
+ {  
+ document.getElementById("strength").innerHTML = 'Password strength';  
+ }  
+ else  
+ {  
+ document.getElementById("strength").innerHTML='';  
+ }  
+ //if password bigger than 6 give 1 point  
+ if (password.length > 3)  
+ score++;  
+  
+ //if password has both lower and uppercase characters give 1 point  
+ if ( ( password.match(/[a-z]/) ) && ( password.match(/[A-Z]/) ) )  
+ score++;  
+  
+ //if password has at least one number give 1 point  
+ if (password.match(/\d+/))  
+ score++;  
+  
+ //if password has at least one special caracther give 1 point  
+ if ( password.match(/.[!,@,#,$,%,^,&,*,?,_,~,-,(,)]/) )  
+ score++;  
+  
+ //if password bigger than 12 give another 1 point  
+ //if (password.length > 3) score++;  
+  
+ document.getElementById("passwordStrength").className = "strength" + score;  
+ }  
+ </script>  
+ <style>  
+ #passwordStrength  
+ {  
+ height:10px;  
+ display:block;  
+ float:left;  
+ }  
+  
+ .strength0  
+ {  
+ width:250px;  
+ background:#cccccc;  
+ }  
+  
+ .strength1  
+ {  
+ width:50px;  
+ background:#ff0000;  
+ }  
+  
+ .strength2  
+ {  
+ width:100px;  
+ background:#ff5f5f;  
+ }  
+  
+ .strength3  
+ {  
+ width:150px;  
+ background:#56e500;  
+ }  
+  
+ .strength4 
+document.getElementById('extratime').style.display="";  
+ /* document.getElementById('scribeshow').style.display="";  
+ */  
+  
+ }  
+ else  
+ {  
+ document.getElementById('extratime').style.display="none";  
+ /*document.getElementById('scribeshow').style.display="none";  
+ document.getElementById('ownscribe').style.display="none";*/  
+  
+  
+ }  
+  
+ }  
+ </script>  
+  
+  
+ 
+ {  
+ background:#4dcd00;  
+ width:200px;  
+ }  
+  
+ .strength5  
+ {  
+ background:#399800;  
+ width:250px;  
+ }  
+  
+  
+  
+  
+ </style>  
+ <script >  
+ function ch_mail()  
+ {  
+ umail=document.getElementById('Email').value;  
+ if ((umail .length == 0) || (umail .search(/^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z_]([-.]?[0-9a-zA-Z_])*.[a-zA-Z]{2,4}$/) == -1 ))  
+ {  
+  
+ alert ('Incorrect or empty Email');  
+ document.getElementById('Email').value='';  
+ //document.getElementById('Email').focus();  
+ return false;  
+  
+ }  
+ }  
+ function ch_mailconfirm()  
+ {  
+ umail=document.getElementById('confirmEmail').value;  
+ if ((umail.length == 0) || (umail .search(/^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z_]([-.]?[0-9a-zA-Z_])*.[a-zA-Z]{2,4}$/) == -1 ))  
+ {  
+  
+ alert ('Incorrect or empty Email ');  
+ //document.getElementById('confirmEmail').value='';  
+ //document.getElementById('Email').value='';  
+ // document.getElementById('Email').focus();  
+ return false;  
+  
+ }  
+ if(document.getElementById('Email').value!='')  
+ {  
+ if ((umail .length == 0) || (umail .search(/^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z_]([-.]?[0-9a-zA-Z_])*.[a-zA-Z]{2,4}$/) == -1 ))  
+ {  
+  
+ alert ('Incorrect or empty Email ');  
+ document.getElementById('confirmEmail').value='';  
+ document.getElementById('Email').value='';  
+ // document.getElementById('Email').focus();  
+ return false;  
+  
+ }  
+ if(document.getElementById('confirmEmail').value!=document.getElementById('Email').value)  
+ {  
+ alert ('Email And confirm Email Not match');  
+ document.getElementById('confirmEmail').value='';  
+ document.getElementById('Email').value='';  
+ //document.getElementById('Email').focus();  
+ return false;  
+  
+ }  
+ }  
+ /* else  
+ {  
+  
+ alert ('Please fill Email id');  
+ document.getElementById('Email').focus();  
+  
+ }*/  
+ }  
+  
+  
+ </script>  
+ <script>  
+ function fieldlen(string)  
+ {  
+  
+ var textval=document.getElementById(string.id).value;  
+ if(textval.length<4)  
+ {  
+ document.getElementById(string.id).value='';  
+ alert("Please Enter the At least 4 charactor. ");  
+ return false;  
+ }  
+ return true;  
+ }  
+ function checkmatchpassword(value)  
+ {  
+ if(value!=document.getElementById('DesiredPassword').value )  
+ {  
+  
+ document.getElementById("showmatchpassword").innerHTML='<img src="css/images/cross_sign.gif" height="20" width="20"/>';  
+ alert('ConfirmPassword And DesiredPassword Mismatch');  
+ document.getElementById('ConfirmPassword').value='';  
+ document.getElementById('DesiredPassword').value='';  
+ document.getElementById('DesiredPassword').focus();  
+ }  
+ /*else  
+ {  
+  
+ document.getElementById("showmatchpassword").innerHTML='<img src="css/images/ok_sign.png" height="20" width="20"/>';  
+  
+  
+  
+ }*/  
+  
+ }  
+ function chekpercentahe(valpercenttegar)  
+ {  
+  
+ if(valpercenttegar==40 || valpercenttegar>40)  
+ {  
+ document.getElementById('scribeshow').style.display="";  
+ if(document.getElementById('handicappcat').value==1){  
+  
+ document.getElementById('ortho').style.display="";  
+  
+ document.getElementById('orthomsg').style.display="";  
+ document.getElementById('blindmsg').style.display="none";  
+  
+ }  
+ else if(document.getElementById('handicappcat').value==2)  
+ {  
+ document.getElementById('orthomsg').style.display="none";  
+ document.getElementById('blindmsg').style.display="";  
+ document.getElementById('ortho').style.display="none";  
+  
+  
+ }  
+ else{  
+  
+ document.getElementById('scribeshow').style.display="";  
+ document.getElementById('ortho').style.display="none";  
+  
+ }  
+ }  
+ else  
+ {  
+  
+ document.getElementById('ortho').style.display="none";  
+ document.getElementById('extratime').style.display="none";  
+ document.getElementById('ownscribe').style.display="none";  
+ document.getElementById('orthomsg').style.display="none";  
+ document.getElementById('blindmsg').style.display="none";  
+ document.getElementById('scribeshow').style.display="none";  
+ }  
+ }  
+  
+ function orthooption(val)  
+ {  
+ if(val=='YES')  
+ {  
+ document.getElementById('extratime').style.display="";  
+</script>
+</html>
